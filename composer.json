@@ -1,0 +1,16 @@
+{
+    "name": "xbdv/tools",
+    "description": "tools for trace and debug",
+    "type": "library",
+    "license": "Apache-2.0",
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.3",
+        "monolog/monolog": "^1.22"
+    },
+    "autoload": {
+        "psr-0": {
+            "Xbdv": "src/"
+        }
+    }
+}
